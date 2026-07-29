@@ -72,8 +72,3 @@ go test ./...
 - Add new practice folders at the repo root.
 - Include a short `README.md` inside larger exercises explaining how to
 	run and what the exercise covers.
-
-## Questions or changes
-
-If you'd like, I can add detailed READMEs per project, a table of contents,
-or scripts to run many exercises at once. What would you like next?

@@ -34,4 +34,6 @@ func main() {
 	fmt.Println("Data receiving from channel without blocking/deadlock", <-emailChan)
 	fmt.Println("Data receiving from channel without blocking/deadlock", <-emailChan)
 
+	close(emailChan)
+
 }

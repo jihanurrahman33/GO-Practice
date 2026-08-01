@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // example of unbuffered channel for sending and receiving value
-func sum(done chan bool, result chan int, a, b int) {
+func sum(done chan<- bool, result chan<- int, a, b int) {
 
 	defer func() { done <- true }()
 	fmt.Println("Calculating...")

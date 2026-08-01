@@ -52,4 +52,8 @@ func main() {
 
 	<-done
 	fmt.Println("done")
+
+	//more channel examples
+
+	resultChan := make(chan string, 5)
 }
